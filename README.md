@@ -23,6 +23,7 @@ ___
 
 # 디렉토리 구조
 /bin: 사용자가 사용하는 명령어 모음
+
 ![image](https://user-images.githubusercontent.com/121842148/219260492-30c17231-8b54-40ee-87f9-15415a5f5358.png)
 
 /sbin: 관리자가 사용하는 명령어 모음
