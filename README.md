@@ -78,10 +78,13 @@ echo - 출력할 것
 ![image](https://user-images.githubusercontent.com/121842148/219260773-9eb08341-6a04-43f5-9110-1bd550ca3a00.png)
 
 읽는권한/쓰는권한/실행권한
+
 drwxr/xr/x
 
 chmod : 특정 파일 또는 디렉토리의 퍼미션 수정
+
 chown : 파일이나 디렉토리의 소유자, 소유 그룹 수정
+
 chgrp : 파일이나 디렉토리의 소유 그룹 수정
 
 ### find
