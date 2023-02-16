@@ -180,7 +180,7 @@ cat < file1 > file2 : file1의 출력 결과를 file2에 저장
 - tar 아카이브를 지정된 디렉토리에 풀기 :$ tar xvf 파일명.tar -C [PATH]
 - tar 아카이브 묶거나 풀 때 파일 별 진행 여부 확인하기 : $ tar cvfw 파일명.tar *
 
-* Navigating file system
+# Navigating file system
 - pwd : 현재 경로
 - ls : list의 약자
 ls dir1, ls –l, ls –a, ls –la
@@ -192,12 +192,12 @@ ex) cd /user/jtaewu : /user/jtaewu 경로의 디렉토리로 이동
 - find . –type file –name “*.txt”, find . –type file –name “*2”, find . –type directory –name “*2”
 - which : 명령어의 경로, which find
 
-* Create and manage file
+# Create and manage file
 - touch new_file.txt
 - cat new_file.txt
 - echo “first line”> new_file1.txt, echo “second line” >> new_file1.txt, echo “Hello World” > new_file2.txt
 
-* Directory
+# Directory
 - mkdir
 - mkdir –p dir1/subdir1/subdir2
 - cp file1.txt dir1/
