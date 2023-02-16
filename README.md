@@ -38,30 +38,53 @@ ___
 # 필수 명령어
 
 ls - 현재 위치의 파일 목록 조회
+
 cd - 디렉터리 이동
+
 touch - 0바이트 파일 생성, 파일의 날짜와 시간을 수정
+
 mkdir - 디렉터리 생성
+
 cp - 파일 복사
+
 mv - 파일 이동
+
 rm - 파일 삭제
+
 cat - 파일의 내용을 화면에 출력, 리다이렉션 기호('>')를 사용하여 새로운 파일 생성
+
 redirection - 화면의 출력 결과를 파일로 저장 ex )echo "fist line" > test1.txt, cp test1.txt test2.txt, echo "second line" >> test2.txt
+
 alias - 자주 사용하는 명령어들을 별명으로 정의하여 쉽게 사용할 수 있도록 설정
+
 top - 현재 내컴퓨터의 프로세스,상태를 출력
+
 find – 현재 폴더에서 들어있는 모든 파일을 검색한다. (https://coding-factory.tistory.com/804)
-파일 : find ex -type f -name "*.txt“ , 디렉토리 : find . -type d -name "ex"
+
+파일 : find ex -type f -name "*.txt“
+
+디렉토리 : find . -type d -name "ex"
+
 grep - 파일 내에서 지정한 패턴이나 문자열을 찾은 후에, 그 패턴을 포함하고 있는 모든 행을 표준 출력. find | grep tt : tt이름이 있는 파일의 경로를 찾아준다.
+
 which - 명령어가 어디에서 비롯되는지 알려준다.
+
 echo - 출력할 것
+
 ![image](https://user-images.githubusercontent.com/121842148/219260694-21f1f975-25b4-4bf1-91d9-2641d3bf81fb.png)
 
-*파일형식 짤막팁
+## 파일형식 짤막팁
+
 ![image](https://user-images.githubusercontent.com/121842148/219260773-9eb08341-6a04-43f5-9110-1bd550ca3a00.png)
+
 읽는권한/쓰는권한/실행권한
+
 drwxr/xr/x
 
 chmod : 특정 파일 또는 디렉토리의 퍼미션 수정
+
 chown : 파일이나 디렉토리의 소유자, 소유 그룹 수정
+
 chgrp : 파일이나 디렉토리의 소유 그룹 수정
 
 * find
